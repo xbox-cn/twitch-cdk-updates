@@ -8,7 +8,7 @@
     "SHA-256 校验通过后才会替换运行包，失败自动回滚"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.1.0-linux-amd64.tar.gz",
+  "artifact": "https://ghfast.top/https://raw.githubusercontent.com/xbox-cn/twitch-cdk-updates/main/releases/twitch-cdk-3.1.0-linux-amd64.tar.gz",
   "sha256": "582c098b656f129e6c6831a9a6fa29dd567868482658bfbf58d59970de92fa64",
   "size": 4048164
 }
