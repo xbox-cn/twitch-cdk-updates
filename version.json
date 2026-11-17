@@ -1,13 +1,14 @@
 {
-  "version": "3.1.3",
-  "released_at": "2026-11-17T15:19:13.326497+00:00",
+  "version": "3.1.4",
+  "released_at": "2026-11-17T15:43:21.874172+00:00",
   "notes": [
-    "设置页“高级”移除 Claim 归属校验说明，设置区只保留部署相关开关",
-    "Claim 强制校验行为不变：回写、心跳和带 account_id 的 CDK 上报必须携带 claim_token",
-    "API 文档继续保留完整校验规则与 403 说明"
+    "服务状态页新增 Twitch 直播间监测：直播中 / 离线、观众数、直播标题",
+    "邮件 API 地址改为可在设置中修改",
+    "新增 Twitch 直播间 URL 设置，默认 https://www.twitch.tv/wgnt2008",
+    "Twitch 离线只显示状态，不判定为服务故障；只有状态接口不可用才告警"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.1.3-linux-amd64.tar.gz",
-  "sha256": "f0ad7f730f84bc516c98be3740753d129f194e50cbd8968ae124459789ce574f",
-  "size": 4055695
+  "artifact": "releases/twitch-cdk-3.1.4-linux-amd64.tar.gz",
+  "sha256": "5fbf20c63505f8a468eb63dced59a1da99c971a8dba9772fb9ddcb8b16e57444",
+  "size": 4068689
 }
