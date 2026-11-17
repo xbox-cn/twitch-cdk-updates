@@ -1,16 +1,15 @@
 {
-  "version": "3.1.1",
-  "released_at": "2026-11-17T15:04:31.079935+00:00",
+  "version": "3.1.2",
+  "released_at": "2026-11-17T15:13:23.506294+00:00",
   "notes": [
-    "修复系统更新卡片在检查成功后仍显示旧错误的问题",
-    "检查进行中显示“检查中”，成功后立即清除旧错误",
-    "检查结果返回错误时改为错误提示，不再误报“已是最新”",
-    "版本清单优先通过 GitHub Contents API 获取，避免 CDN 缓存延迟",
-    "更新包仅包含编译后的后端二进制与前端静态资源，不包含源码",
-    "SHA-256 校验通过后才会替换运行包，失败自动回滚"
+    "Claim 归属校验改为强制开启，不再提供关闭开关",
+    "update_status、heartbeat、带 account_id 的 cdks/claim 必须携带 claim_token",
+    "缺失或 token 不匹配统一返回 403",
+    "设置页删除“严格 Claim 归属校验”开关，仅保留强制校验说明",
+    "0017 迁移删除旧的 strict_claim_ownership 设置行"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.1.1-linux-amd64.tar.gz",
-  "sha256": "de462d76c85628b40af4f41bc5c96b251fa8cca5736cf07c9cdf7a76cfd94678",
-  "size": 4056121
+  "artifact": "releases/twitch-cdk-3.1.2-linux-amd64.tar.gz",
+  "sha256": "c21524479d8fe3e1d094445ab9f857ddb23eed270a5f845fa0ba863ebe5343f4",
+  "size": 4056743
 }
