@@ -1,14 +1,14 @@
 {
-  "version": "3.1.4",
-  "released_at": "2026-11-17T15:43:21.874172+00:00",
+  "version": "3.2.0",
+  "released_at": "2026-11-17T15:55:58.925431+00:00",
   "notes": [
-    "服务状态页新增 Twitch 直播间监测：直播中 / 离线、观众数、直播标题",
-    "邮件 API 地址改为可在设置中修改",
-    "新增 Twitch 直播间 URL 设置，默认 https://www.twitch.tv/wgnt2008",
-    "Twitch 离线只显示状态，不判定为服务故障；只有状态接口不可用才告警"
+    "展示页新增顶部导航栏与明暗模式切换",
+    "展示页显示实时累计账号、CDK、项目与领取成功率",
+    "新增公开数据页 /public，展示累计账号、CDK 与近 30 天趋势",
+    "公开页无需登录，只展示聚合数据，不包含账号凭据或具体 CDK"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.1.4-linux-amd64.tar.gz",
-  "sha256": "5fbf20c63505f8a468eb63dced59a1da99c971a8dba9772fb9ddcb8b16e57444",
-  "size": 4068689
+  "artifact": "releases/twitch-cdk-3.2.0-linux-amd64.tar.gz",
+  "sha256": "b97b55b4d02a515bda70b8f074cb6a8f73b596a4489d01ca534e31f99dfd3042",
+  "size": 4091023
 }
