@@ -1,15 +1,16 @@
 {
-  "version": "3.3.4",
-  "released_at": "2026-11-18T13:09:42.321960+00:00",
+  "version": "3.3.5",
+  "released_at": "2026-11-18T13:23:23.473057+00:00",
   "notes": [
+    "侧边栏按概况、工作区、日志和设置三组重新分类",
     "设置接口不再回显管理员密码、JWT Secret、API Token 与数据库 DSN",
     "Worker 取号恢复 password；claiming 账号上传与删除强制 claim_token",
     "本机测活开启时禁用 Worker 测活队列；公开统计增加缓存与索引",
     "锁定 Cargo/npm 依赖，容器只读降权，修复账号状态默认值"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.4-linux-amd64.tar.gz",
-  "sha256": "1d53e31985acf22d7ba1975f554cdcbf5a4d4a7f54f170f018e6ac6a953ba50f",
-  "size": 4223308,
-  "signature": "ndCL3CjTVS3+04Vm1lz0zFOMdG/pTN8kDihc76vpddcjmC7Eo//Hex/U+JW7ODc1MkCn16OVZfB56SFavM9QCA=="
+  "artifact": "releases/twitch-cdk-3.3.5-linux-amd64.tar.gz",
+  "sha256": "4d3485d4ba2470456bc5a1eb1ae9774bd9fa6d319052a59de626528a12378524",
+  "size": 4225257,
+  "signature": "7gVGT4rV5WXqc6oW7URj+ko3GOyv9i5klSmRyo+44qpXoG5qP2oCHEcdtwxDFEh0N8NCOsSv8R+2bNzgDlheBQ=="
 }
