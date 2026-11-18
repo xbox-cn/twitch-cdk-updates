@@ -1,15 +1,14 @@
 {
-  "version": "3.3.1",
-  "released_at": "2026-11-18T09:17:44.932236+00:00",
+  "version": "3.3.2",
+  "released_at": "2026-11-18T10:42:46.627319+00:00",
   "notes": [
-    "自动化测活增加启用项目保护：存在启用项目或领取中账号时不自动触发",
-    "首次部署的自动测活从 24 小时后开始，不再在启动时立即创建任务",
-    "测活间隔输入在状态轮询时不会被覆盖",
-    "手动启动测活在自动开关关闭时仍可使用"
+    "测活扫描范围调整：除正在 claiming 的账号外全部检查",
+    "项目 success/failed/nostock 历史不再影响测活分配",
+    "API 文档和测活页面说明同步更新"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.1-linux-amd64.tar.gz",
-  "sha256": "775f93da45c27bb1e87c74e05d6f10b7a4331a564aa9421227b20cc2ca746dd6",
-  "size": 4161386,
-  "signature": "gyGzuSrLgTPIVWZvNUTzSkHYrhkgPfF76/u0PhGqno360erbz1riv4BNGK1C252IKE2r2SApB+55dKcCJudnDg=="
+  "artifact": "releases/twitch-cdk-3.3.2-linux-amd64.tar.gz",
+  "sha256": "9c305b916219562d233be715ba45f0ddf431251d3adbc344ddfc26de85e054da",
+  "size": 4160945,
+  "signature": "0LTdMIbdezZdz9GpVi0R00NMarOWZCqfbaROQeexYZwSaglTNmDt05tuIwd8q55QSRK8imcMaF6L6rNazKQVDg=="
 }
