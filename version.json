@@ -1,15 +1,15 @@
 {
-  "version": "3.3.3",
-  "released_at": "2026-11-18T12:11:52.061006+00:00",
+  "version": "3.3.4",
+  "released_at": "2026-11-18T13:06:04.131930+00:00",
   "notes": [
-    "测活支持本机经代理检测：LIVENESS_LOCAL_CHECK 与 LIVENESS_PROXY_URL",
-    "后端直接调用 Twitch validate，默认并发 10、每批 50、超时 15 秒",
-    "修复 Rust 构建链并切换到可用的 crates 镜像",
-    "API 文档与 README 同步本机检测模式"
+    "设置接口不再回显管理员密码、JWT Secret、API Token 与数据库 DSN",
+    "Worker 取号恢复 password；claiming 账号上传与删除强制 claim_token",
+    "本机测活开启时禁用 Worker 测活队列；公开统计增加缓存与索引",
+    "锁定 Cargo/npm 依赖，容器只读降权，修复账号状态默认值"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.3-linux-amd64.tar.gz",
-  "sha256": "eff9831f13419b2fc8b312aea999959628a45406ba8d7f3d85b779829c37b2bb",
-  "size": 4207092,
-  "signature": "+7NV8c2ugXc2wLhP63hxxeJAU2B5M5nTUfayDJLbGMpjHqgugyh8sonPBiYiTojvqwzPFYbaRBHbIIxT+K96CA=="
+  "artifact": "releases/twitch-cdk-3.3.4-linux-amd64.tar.gz",
+  "sha256": "df9f823b6f0278f6b60ab6747a0db67dc874438a7043cca1b2c1618825dc98e1",
+  "size": 4220604,
+  "signature": "tTpDgPQ7s49X8LRjdkZLeEB5YMkMhBoR0/APHwNTF2l8B10oazPaUWA9ZoE8abQPFePDjRiTZx/HcSN0XZYiBg=="
 }
