@@ -1,13 +1,15 @@
 {
-  "version": "3.2.1",
-  "released_at": "2026-11-17T16:43:03.301901+00:00",
+  "version": "3.2.2",
+  "released_at": "2026-11-18T04:28:53.914930+00:00",
   "notes": [
-    "修复移动端公开页顶部导航被隐藏的问题",
-    "移动端新增核心能力、公开数据、API 文档入口与明暗切换",
-    "桌面端导航与主题切换保持原样"
+    "安全加固：CSP、安全响应头与同源默认 CORS",
+    "主题首屏脚本改为外部文件，配合严格 script-src",
+    "自动更新清单增加 Ed25519 签名校验，防止更新仓库被篡改后投递恶意包",
+    "保留移动端公开导航与公开数据页"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.2.1-linux-amd64.tar.gz",
-  "sha256": "355dd59d08e048d087706241ec2287a0125d13b921ecd5ad7e757aa36199508e",
-  "size": 4091031
+  "artifact": "releases/twitch-cdk-3.2.2-linux-amd64.tar.gz",
+  "sha256": "e4fe18966ac46f89e295c56144c153d34dfe310063cf0e237cc8dc310764abd9",
+  "size": 4089506,
+  "signature": "W9t8liP/atAojc/hdv/F670axl1FhdXqDiWPjGbBxrV9jYGuZkg2qf2gJs9+127zSWjnvqNTVo2+BiiJX+BeBA=="
 }
