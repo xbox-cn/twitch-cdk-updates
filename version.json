@@ -1,6 +1,6 @@
 {
   "version": "3.3.4",
-  "released_at": "2026-11-18T13:06:04.131930+00:00",
+  "released_at": "2026-11-18T13:09:42.321960+00:00",
   "notes": [
     "设置接口不再回显管理员密码、JWT Secret、API Token 与数据库 DSN",
     "Worker 取号恢复 password；claiming 账号上传与删除强制 claim_token",
@@ -9,7 +9,7 @@
   ],
   "min_version": "3.0.0",
   "artifact": "releases/twitch-cdk-3.3.4-linux-amd64.tar.gz",
-  "sha256": "df9f823b6f0278f6b60ab6747a0db67dc874438a7043cca1b2c1618825dc98e1",
-  "size": 4220604,
-  "signature": "tTpDgPQ7s49X8LRjdkZLeEB5YMkMhBoR0/APHwNTF2l8B10oazPaUWA9ZoE8abQPFePDjRiTZx/HcSN0XZYiBg=="
+  "sha256": "1d53e31985acf22d7ba1975f554cdcbf5a4d4a7f54f170f018e6ac6a953ba50f",
+  "size": 4223308,
+  "signature": "ndCL3CjTVS3+04Vm1lz0zFOMdG/pTN8kDihc76vpddcjmC7Eo//Hex/U+JW7ODc1MkCn16OVZfB56SFavM9QCA=="
 }
