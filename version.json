@@ -1,15 +1,16 @@
 {
-  "version": "3.2.2",
-  "released_at": "2026-11-18T04:28:53.914930+00:00",
+  "version": "3.3.0",
+  "released_at": "2026-11-18T09:14:42.607532+00:00",
   "notes": [
-    "安全加固：CSP、安全响应头与同源默认 CORS",
-    "主题首屏脚本改为外部文件，配合严格 script-src",
-    "自动更新清单增加 Ed25519 签名校验，防止更新仓库被篡改后投递恶意包",
-    "保留移动端公开导航与公开数据页"
+    "新增“自动化测活”模块，默认每 24 小时一次",
+    "按账号 ID 顺序由 Worker 领取检查，支持几十万账号游标队列",
+    "401 失效账号自动删除，其它异常保留；仅无领取中账号时自动触发",
+    "测活任务支持手动启动、停止、进度与历史记录",
+    "设置页可开关自动测活、调整周期与空闲触发条件"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.2.2-linux-amd64.tar.gz",
-  "sha256": "e4fe18966ac46f89e295c56144c153d34dfe310063cf0e237cc8dc310764abd9",
-  "size": 4089506,
-  "signature": "W9t8liP/atAojc/hdv/F670axl1FhdXqDiWPjGbBxrV9jYGuZkg2qf2gJs9+127zSWjnvqNTVo2+BiiJX+BeBA=="
+  "artifact": "releases/twitch-cdk-3.3.0-linux-amd64.tar.gz",
+  "sha256": "4b6252c787c335f5027e38e154f3064cf2793972b8735b3b4e33065b3c636b0e",
+  "size": 4161380,
+  "signature": "txpJXW1Tu2xKdkFRRkgBID01/bKb80Mouz9D+FdF63FIeUt0QzdHVIstA5WROIsL6m4JNkGVuCOiMyHU3ikDCA=="
 }
