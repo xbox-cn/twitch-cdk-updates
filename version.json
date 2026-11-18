@@ -1,14 +1,15 @@
 {
-  "version": "3.3.2",
-  "released_at": "2026-11-18T10:42:46.627319+00:00",
+  "version": "3.3.3",
+  "released_at": "2026-11-18T12:11:52.061006+00:00",
   "notes": [
-    "测活扫描范围调整：除正在 claiming 的账号外全部检查",
-    "项目 success/failed/nostock 历史不再影响测活分配",
-    "API 文档和测活页面说明同步更新"
+    "测活支持本机经代理检测：LIVENESS_LOCAL_CHECK 与 LIVENESS_PROXY_URL",
+    "后端直接调用 Twitch validate，默认并发 10、每批 50、超时 15 秒",
+    "修复 Rust 构建链并切换到可用的 crates 镜像",
+    "API 文档与 README 同步本机检测模式"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.2-linux-amd64.tar.gz",
-  "sha256": "9c305b916219562d233be715ba45f0ddf431251d3adbc344ddfc26de85e054da",
-  "size": 4160945,
-  "signature": "0LTdMIbdezZdz9GpVi0R00NMarOWZCqfbaROQeexYZwSaglTNmDt05tuIwd8q55QSRK8imcMaF6L6rNazKQVDg=="
+  "artifact": "releases/twitch-cdk-3.3.3-linux-amd64.tar.gz",
+  "sha256": "eff9831f13419b2fc8b312aea999959628a45406ba8d7f3d85b779829c37b2bb",
+  "size": 4207092,
+  "signature": "+7NV8c2ugXc2wLhP63hxxeJAU2B5M5nTUfayDJLbGMpjHqgugyh8sonPBiYiTojvqwzPFYbaRBHbIIxT+K96CA=="
 }
