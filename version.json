@@ -1,16 +1,15 @@
 {
-  "version": "3.3.0",
-  "released_at": "2026-11-18T09:14:42.607532+00:00",
+  "version": "3.3.1",
+  "released_at": "2026-11-18T09:17:44.932236+00:00",
   "notes": [
-    "新增“自动化测活”模块，默认每 24 小时一次",
-    "按账号 ID 顺序由 Worker 领取检查，支持几十万账号游标队列",
-    "401 失效账号自动删除，其它异常保留；仅无领取中账号时自动触发",
-    "测活任务支持手动启动、停止、进度与历史记录",
-    "设置页可开关自动测活、调整周期与空闲触发条件"
+    "自动化测活增加启用项目保护：存在启用项目或领取中账号时不自动触发",
+    "首次部署的自动测活从 24 小时后开始，不再在启动时立即创建任务",
+    "测活间隔输入在状态轮询时不会被覆盖",
+    "手动启动测活在自动开关关闭时仍可使用"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.0-linux-amd64.tar.gz",
-  "sha256": "4b6252c787c335f5027e38e154f3064cf2793972b8735b3b4e33065b3c636b0e",
-  "size": 4161380,
-  "signature": "txpJXW1Tu2xKdkFRRkgBID01/bKb80Mouz9D+FdF63FIeUt0QzdHVIstA5WROIsL6m4JNkGVuCOiMyHU3ikDCA=="
+  "artifact": "releases/twitch-cdk-3.3.1-linux-amd64.tar.gz",
+  "sha256": "775f93da45c27bb1e87c74e05d6f10b7a4331a564aa9421227b20cc2ca746dd6",
+  "size": 4161386,
+  "signature": "gyGzuSrLgTPIVWZvNUTzSkHYrhkgPfF76/u0PhGqno360erbz1riv4BNGK1C252IKE2r2SApB+55dKcCJudnDg=="
 }
