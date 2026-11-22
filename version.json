@@ -1,15 +1,15 @@
 {
-  "version": "3.3.8",
-  "released_at": "2026-11-22T09:20:28.247155+00:00",
+  "version": "3.3.9",
+  "released_at": "2026-11-22T15:40:24.118745+00:00",
   "notes": [
-    "本机测活默认并发提升到 200、每批 200，可用 LIVENESS_BATCH_SIZE / LIVENESS_CONCURRENCY 在 1–500 调整",
-    "200 个测试账号一次性检查完成约 1 秒；401 删除、其它异常保留逻辑不变",
-    "测活页显示当前并发与每批数量",
-    "包含概况页一键更新、版本提醒与最近账号入库统计"
+    "CDK 页新增项目筛选，列表可按项目分类查看",
+    "导出支持项目参数，只导出该项目未导出的 CDK，文件名带项目代码",
+    "保留“全部项目”导出；项目筛选与导出共享当前选择",
+    "包含本机测活并发 200、概况一键更新与安全修复"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.8-linux-amd64.tar.gz",
-  "sha256": "f22d8776833a8ebc4cdebd10bcbfa1f5e8bceccfc2d1be979905be002afede18",
-  "size": 4237085,
-  "signature": "SFFp4mHKStY+2GIJihkaM21zZmnAYJgByVD/Dj6XTygcSx8Y1JN5VNeG0ioCyTm2rL5upqT2ETbJSbhbOGQlBA=="
+  "artifact": "releases/twitch-cdk-3.3.9-linux-amd64.tar.gz",
+  "sha256": "72bc126e0f511042f836a43f9622e2e702227264c2a6286524c4f6927f6e97a4",
+  "size": 4240888,
+  "signature": "rIeZGudi7xzovM6Lv3jCGVs8j5e+sanJU4DDUIoAQVx0fEuJWxSKitxxHoBXDDIB3hJrKZDPvi5IY+LyNRvpBw=="
 }
