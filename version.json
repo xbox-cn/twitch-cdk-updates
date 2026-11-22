@@ -1,15 +1,15 @@
 {
-  "version": "3.3.9",
-  "released_at": "2026-11-22T15:40:24.118745+00:00",
+  "version": "3.4.0",
+  "released_at": "2026-11-22T15:48:39.194115+00:00",
   "notes": [
-    "CDK 页新增项目筛选，列表可按项目分类查看",
-    "导出支持项目参数，只导出该项目未导出的 CDK，文件名带项目代码",
-    "保留“全部项目”导出；项目筛选与导出共享当前选择",
+    "CDK 导出必须选择项目，不再支持全部项目混导",
+    "导出按钮显示当前数量，输入多少就导出该项目的多少条",
+    "全部项目仍可查看，但未选择项目时导出按钮禁用",
     "包含本机测活并发 200、概况一键更新与安全修复"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.9-linux-amd64.tar.gz",
-  "sha256": "72bc126e0f511042f836a43f9622e2e702227264c2a6286524c4f6927f6e97a4",
-  "size": 4240888,
-  "signature": "rIeZGudi7xzovM6Lv3jCGVs8j5e+sanJU4DDUIoAQVx0fEuJWxSKitxxHoBXDDIB3hJrKZDPvi5IY+LyNRvpBw=="
+  "artifact": "releases/twitch-cdk-3.4.0-linux-amd64.tar.gz",
+  "sha256": "78e22e24608e72d31c8868640afc76fde848f5240e80407e8beeab3473bc5fb1",
+  "size": 4242248,
+  "signature": "eqTw0kwqlqbOq/szzFYW8bGz5XnSETDM7W/VpsXKP+Av+j4EohLipQTC0vzaj+LCa1CVt1jIGy36DCrT4rmxCA=="
 }
