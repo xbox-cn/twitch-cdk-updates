@@ -1,15 +1,15 @@
 {
-  "version": "3.3.7",
-  "released_at": "2026-11-21T16:03:33.489165+00:00",
+  "version": "3.3.8",
+  "released_at": "2026-11-22T09:20:28.247155+00:00",
   "notes": [
-    "概况页新增版本提醒横幅，发现新版本可点击一键更新",
-    "宿主机通过 systemd path unit 立即触发签名校验、构建与重启",
-    "最近账号显示近 1/3/24 小时新增数量；侧边栏保持三组分类",
-    "包含设置密钥脱敏、Worker 租约校验、依赖锁定与容器降权"
+    "本机测活默认并发提升到 200、每批 200，可用 LIVENESS_BATCH_SIZE / LIVENESS_CONCURRENCY 在 1–500 调整",
+    "200 个测试账号一次性检查完成约 1 秒；401 删除、其它异常保留逻辑不变",
+    "测活页显示当前并发与每批数量",
+    "包含概况页一键更新、版本提醒与最近账号入库统计"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.3.7-linux-amd64.tar.gz",
-  "sha256": "ef1404132171edd5ab8c059497e7994f0d7272934ee46d6c9a6ea957af691da3",
-  "size": 4239195,
-  "signature": "+HtZX7Qcxt30JxtKB990sQj8TheucqjHJOVK1prlq5RbpUHXow/vtPwmDZZEKRjmINe9q8MIppM3d9cT94g/AA=="
+  "artifact": "releases/twitch-cdk-3.3.8-linux-amd64.tar.gz",
+  "sha256": "f22d8776833a8ebc4cdebd10bcbfa1f5e8bceccfc2d1be979905be002afede18",
+  "size": 4237085,
+  "signature": "SFFp4mHKStY+2GIJihkaM21zZmnAYJgByVD/Dj6XTygcSx8Y1JN5VNeG0ioCyTm2rL5upqT2ETbJSbhbOGQlBA=="
 }
