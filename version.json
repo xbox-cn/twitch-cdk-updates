@@ -1,15 +1,15 @@
 {
-  "version": "3.4.0",
-  "released_at": "2026-11-22T15:48:39.194115+00:00",
+  "version": "3.4.1",
+  "released_at": "2026-11-24T18:06:20.130644+00:00",
   "notes": [
-    "CDK 导出必须选择项目，不再支持全部项目混导",
-    "导出按钮显示当前数量，输入多少就导出该项目的多少条",
-    "全部项目仍可查看，但未选择项目时导出按钮禁用",
-    "包含本机测活并发 200、概况一键更新与安全修复"
+    "测活非 401 异常新增临时标记，记录最后结果与 HTTP 状态，不改变账号状态",
+    "新增 GET /api/liveness/errors 与 POST /api/liveness/errors/clear，便于手动复检",
+    "标记会在账号下一次测活时自动刷新；异常账号仍然保留，不做删除",
+    "包含 CDK 必须按项目导出、本机测活并发 200 与一键更新"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.4.0-linux-amd64.tar.gz",
-  "sha256": "78e22e24608e72d31c8868640afc76fde848f5240e80407e8beeab3473bc5fb1",
-  "size": 4242248,
-  "signature": "eqTw0kwqlqbOq/szzFYW8bGz5XnSETDM7W/VpsXKP+Av+j4EohLipQTC0vzaj+LCa1CVt1jIGy36DCrT4rmxCA=="
+  "artifact": "releases/twitch-cdk-3.4.1-linux-amd64.tar.gz",
+  "sha256": "8a81b41cb78c952234d36a0557e299ba79bcb7d59034250b494da8d0408095df",
+  "size": 4252739,
+  "signature": "f+qQ9cNn1qOSzksMWZcVpBeg7XZ59YRHeXxHPg5xqvrfYOyhjfLhmsy0xwWjzKOYcNiN27dV7ma8rusyVDT2AQ=="
 }
