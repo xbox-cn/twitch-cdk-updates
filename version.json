@@ -1,15 +1,15 @@
 {
-  "version": "3.5.0",
-  "released_at": "2026-11-26T15:15:27.762680+00:00",
+  "version": "3.4.1",
+  "released_at": "2026-11-24T18:06:20.130644+00:00",
   "notes": [
-    "接入 mail.minecraft.fashion 短期域名临时邮箱，新增「邮箱」页面",
-    "支持新建邮箱、收件箱自动刷新、邮件详情与删除；邮箱令牌只保存在服务端",
-    "短期邮箱默认 12 小时有效，过期由后台清理",
-    "10 并发 × 3 轮 × 15 秒测试：30 个邮箱全部创建成功并清理"
+    "测活非 401 异常新增临时标记，记录最后结果与 HTTP 状态，不改变账号状态",
+    "新增 GET /api/liveness/errors 与 POST /api/liveness/errors/clear，便于手动复检",
+    "标记会在账号下一次测活时自动刷新；异常账号仍然保留，不做删除",
+    "包含 CDK 必须按项目导出、本机测活并发 200 与一键更新"
   ],
   "min_version": "3.0.0",
-  "artifact": "releases/twitch-cdk-3.5.0-linux-amd64.tar.gz",
-  "sha256": "e025fdca1d4848ec6965435042bb253527f1bdde355cef9a9b5cb737f497e202",
-  "size": 4306877,
-  "signature": "OkAEQjZRzTC25WA2ewVsYHZ35JyQEJKJKGYa/gB/TSMCPEOwEz4LDwKBoOawyUbddr7THuLPwZWp1s1XayPuCA=="
+  "artifact": "releases/twitch-cdk-3.4.1-linux-amd64.tar.gz",
+  "sha256": "8a81b41cb78c952234d36a0557e299ba79bcb7d59034250b494da8d0408095df",
+  "size": 4252739,
+  "signature": "f+qQ9cNn1qOSzksMWZcVpBeg7XZ59YRHeXxHPg5xqvrfYOyhjfLhmsy0xwWjzKOYcNiN27dV7ma8rusyVDT2AQ=="
 }
